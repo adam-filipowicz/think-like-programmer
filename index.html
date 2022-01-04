@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Problem: Half of a square
+        for (row=1; row <= 5; row++) {
+            for (i=1; i <= 6 - row; i++) {
+                console.log("#");
+            }
+            console.log("\n");
+        }
+        // Problem: A sideways triangle
+        for (row=1; row <= 7; row++) {
+            for (i=1; i <= 4 - Math.abs(4 - row); i++) {
+                console.log("#");
+            }
+            console.log("\n");
+        }
+    </script>
+</body>
+</html>
